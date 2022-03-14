@@ -1,0 +1,29 @@
+{
+  "main": {
+    "redirectUri": "[authing登出回调地址]",
+    "appId": "[authing App ID]",
+    "appHost": "[authing 认证地址]"
+
+  },
+
+  "rcon": {
+    "url": "[服务器ip/域名]",
+    "port1": "[服务器rcon端口]",
+    "port2": "[服务器rcon端口]",
+    "port3": "[服务器rcon端口]",
+    "port4": "[服务器rcon端口]",
+    "passwd": "[服务器rcon密码]"
+  },
+
+  "mcsm_url": "[mcsm网址]",
+
+  "jdbc": {
+    "host": "[数据库地址]",
+    "port": 3306,
+    "user": "[数据库用户]",
+    "passwd": "[数据库密码]",
+    "db": "[数据库名称]"
+  }
+
+
+}

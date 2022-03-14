@@ -1,28 +1,23 @@
 # Minecraft Player Portal
 我的世界玩家门户
 
-###当前功能清单
+### 当前功能清单
 
-####1.白名单申请
+#### 1.白名单申请
 ![](https://s3.bmp.ovh/imgs/2022/03/a515e27ec81457c8.png)
-
-####2.每日签到领奖励
+#### 2.每日签到领奖励
 ![](https://i.bmp.ovh/imgs/2022/03/06cc20ccbaa3cca8.png)
-
-####3.网页指令分区服发送
+#### 3.网页指令分区服发送
 ![](https://i.bmp.ovh/imgs/2022/03/2aeb83c3bc4ad79f.png)
-
-####4.链接跳转mcsm
+#### 4.链接跳转mcsm
 ![](https://i.bmp.ovh/imgs/2022/03/49b0b302f1cae65b.png)
-
-####5.抽奖系统
+#### 5.抽奖系统
 ![](https://i.bmp.ovh/imgs/2022/03/6f804b302d56f861.png)
-
-####6.内嵌粘液科技小助手 Created by https://github.com/ybw0014
+#### 6.内嵌粘液科技小助手 Created by https://github.com/ybw0014
 （不需要的可以直接注释掉
 ![](https://i.bmp.ovh/imgs/2022/03/521e665a2f1882e2.png)
 
-###功能说明
+### 功能说明
 ```angular2html
 1.为节省开发成本（各方面），所以账号系统用的是authing提供的服务（有一定免费额度）
 2.使用前需要注册一个authing应用，然后把对应参数填入配置文件 -> https://console.authing.cn/
@@ -74,8 +69,7 @@ DEFAULT CHARSET=utf8
 COLLATE=utf8_general_ci
 AUTO_INCREMENT=1;
 ```
-
-####game_id
+#### game_id
 ```angular2html
 CREATE TABLE `game_id` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -83,8 +77,7 @@ CREATE TABLE `game_id` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=785 DEFAULT CHARSET=utf8;
 ```
-
-####portal_admin
+#### portal_admin
 ```angular2html
 CREATE TABLE `portal_admin` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -92,8 +85,7 @@ CREATE TABLE `portal_admin` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 ```
-
-####daily_sign
+#### daily_sign
 ```angular2html
 CREATE TABLE `daily_sign` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -102,8 +94,7 @@ CREATE TABLE `daily_sign` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=719 DEFAULT CHARSET=utf8;
 ```
-
-####lottery_bind_server_new
+#### lottery_bind_server_new
 ```angular2html
 CREATE TABLE `lottery_bind_server_new` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -112,8 +103,7 @@ CREATE TABLE `lottery_bind_server_new` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=utf8;
 ```
-
-####lottery_record
+#### lottery_record
 ```
 CREATE TABLE `lottery_record` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -124,22 +114,22 @@ CREATE TABLE `lottery_record` (
 ) ENGINE=InnoDB AUTO_INCREMENT=6316 DEFAULT CHARSET=utf8;
 ```
 
-###安装项目
+### 安装项目
 ```
 pnpm install
 ```
 
-###开发环境编译及热更新
+### 开发环境编译及热更新
 ```
 pnpm serve
 ```
 
-###生产环境编译及压缩
+### 生产环境编译及压缩
 ```
 pnpm build
 ```
 
-###项目运行地址
+### 项目运行地址
 ```
 localhost:4000
 ```

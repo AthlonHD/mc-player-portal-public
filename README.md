@@ -2,16 +2,22 @@
 我的世界玩家门户
 
 ###当前功能清单
+
 ####1.白名单申请
 ![](https://s3.bmp.ovh/imgs/2022/03/a515e27ec81457c8.png)
+
 ####2.每日签到领奖励
 ![](https://i.bmp.ovh/imgs/2022/03/06cc20ccbaa3cca8.png)
+
 ####3.网页指令分区服发送
 ![](https://i.bmp.ovh/imgs/2022/03/2aeb83c3bc4ad79f.png)
+
 ####4.链接跳转mcsm
 ![](https://i.bmp.ovh/imgs/2022/03/49b0b302f1cae65b.png)
+
 ####5.抽奖系统
 ![](https://i.bmp.ovh/imgs/2022/03/6f804b302d56f861.png)
+
 ####6.内嵌粘液科技小助手 Created by https://github.com/ybw0014
 （不需要的可以直接注释掉
 ![](https://i.bmp.ovh/imgs/2022/03/521e665a2f1882e2.png)
@@ -53,6 +59,7 @@
 ```
 
 ### 数据库表创建
+
 #### mc_whitelist
 ```angular2html
 CREATE TABLE mc.mc_whitelist (
